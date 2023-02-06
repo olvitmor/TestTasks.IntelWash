@@ -14,5 +14,6 @@ namespace TestTasks.IntelWash.Database
         public DbSet<Buyer> Buyers { get; set; }
         public DbSet<SalesPoint> SalesPoints { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Sale> Sales { get; set; }
     }
 }

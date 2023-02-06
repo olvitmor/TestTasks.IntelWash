@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TestTasks.IntelWash.Interfaces;
+using TestTasks.IntelWash.Storage;
 
 namespace TestTasks.IntelWash
 {
@@ -32,6 +34,8 @@ namespace TestTasks.IntelWash
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TestTasks.IntelWash", Version = "v1" });
             });
+
+            services.AddSingleton<IProductStorage, ProductStorage>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

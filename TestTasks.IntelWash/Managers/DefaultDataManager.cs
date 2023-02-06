@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using TestTasks.IntelWash.Database;
 using TestTasks.IntelWash.Models;
 using TestTasks.IntelWash.Models.Product;
 
@@ -9,16 +10,31 @@ namespace TestTasks.IntelWash.Managers
 {
     public class DefaultDataManager
     {
-        public static List<Product> Products = new List<Product>();
-        public static List<Buyer> Buyers = new List<Buyer>();
-        public static List<SalesPoint> SalesPoints = new List<SalesPoint>();
-        public static List<Sale> Sales = new List<Sale>();
+        private static List<Product> Products = new List<Product>();
+        private static List<Buyer> Buyers = new List<Buyer>();
+        private static List<SalesPoint> SalesPoints = new List<SalesPoint>();
+        private static List<Sale> Sales = new List<Sale>();
 
         public static void MakeDefaultData()
         {
             MakeProducts();
+            
             MakeSalesPoints();
+            
             MakeBuyersAndSales();
+            
+            Apply();
+        }
+
+        private static void Apply()
+        {
+            using (var context = new DatabaseContext())
+            {
+                context.Products.AddRange(Products);
+                context.Buyers.AddRange(Buyers);
+                context.SalesPoints.AddRange(SalesPoints);
+                context.Sales.AddRange(Sales);
+            }
         }
 
         private static void MakeBuyersAndSales()

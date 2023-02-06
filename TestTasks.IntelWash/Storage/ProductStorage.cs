@@ -2,23 +2,17 @@
 using System.Linq;
 using TestTasks.IntelWash.Database;
 using TestTasks.IntelWash.Interfaces;
+using TestTasks.IntelWash.Managers;
 using TestTasks.IntelWash.Models;
 using TestTasks.IntelWash.Models.Product;
 
 namespace TestTasks.IntelWash.Storage
 {
-    public class ProductStorage : IProductsStorage
+    public class ProductStorage : IProductStorage
     {
         public ProductStorage()
         {
-            using (var context = new DatabaseContext())
-            {
-                //var products = new List<Product>()
-                //{
 
-                //};
-                //context.Products.AddRange(products);
-            }
         }
 
         public List<Product> GetList()

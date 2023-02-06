@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vSi70vFc3Nsf6xoM2VUiNckPDe1IVDuneeTS5gGccXdARJFghNJx3cxH05d+Tg/XtFGCe3UKsRIg/JeaoZlwRw==",
+  "dgSpecHash": "DDjXjqwExoIb6BSfrQI3bYvYkyIEARBp3mJ1s3DmLoMe+LZlmxV9FCwu8IHQ6G9kJUPOqAv8UgSlZCzFJ4oRXA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Test tasks\\TestTasks.IntelWash\\TestTasks.IntelWash\\TestTasks.IntelWash.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gushm\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.17\\microsoft.aspnetcore.jsonpatch.5.0.17.nupkg.sha512",
+    "C:\\Users\\gushm\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.17\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.17.nupkg.sha512",
+    "C:\\Users\\gushm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.17\\microsoft.entityframeworkcore.analyzers.5.0.17.nupkg.sha512",
@@ -19,6 +22,7 @@
     "C:\\Users\\gushm\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\gushm\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\gushm\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
