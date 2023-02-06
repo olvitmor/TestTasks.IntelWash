@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TestTasks.IntelWash.Managers;
 
 namespace TestTasks.IntelWash
 {
@@ -13,6 +14,8 @@ namespace TestTasks.IntelWash
     {
         public static void Main(string[] args)
         {
+            DefaultDataManager.MakeDefaultData();
+
             CreateHostBuilder(args).Build().Run();
         }
 
